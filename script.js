@@ -10,13 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const username = usernameInput.value.trim();
         const password = passwordInput.value.trim();
 
-        if (username === '') {
+        if (username === '') 
+        {
             alert('Please enter your username.');
             usernameInput.focus();
             return;
         }
 
-        if (password === '') {
+        if (password === '') 
+        {
             alert('Please enter your password.');
             passwordInput.focus();
             return;
